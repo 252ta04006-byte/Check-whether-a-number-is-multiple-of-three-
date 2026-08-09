@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int num;
+
+    // Ask the user to enter an integer
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+
+    // Check if the remainder is 0 when divided by 3
+    if (num % 3 == 0) {
+        printf("%d is a multiple of 3.\n", num);
+    } else {
+        printf("%d is not a multiple of 3.\n", num);
+    }
+
+    return 0;
+}
